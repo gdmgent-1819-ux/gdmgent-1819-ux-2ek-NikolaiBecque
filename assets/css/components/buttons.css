@@ -1,0 +1,21 @@
+.button_submit {
+
+    color: #FED42A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #4364AF;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button_submit:hover {
+    background-color: #00B2D5;
+}
