@@ -1,19 +1,22 @@
-
 :root {
   /**
-   * Colour palette
-   */
-  --c-primary: hsl(190, 100%, 40%);
+     * Colour palette
+     */
+  --c-primary: #4364AF;
+  --c-secondary: #00B2D5;
+  --c-tertiary: #B7D93D;
+  --c-quartiary: #FED42A;
+  --c-background: #E9E7EA;
 
   /**
-   * Layout
-   */
+     * Layout
+     */
   --l-gutter: 1rem;
 
   /**
-   * Typography
-   */
-  --t-primary: Arial, Helvetica, sans-serif;
+     * Typography
+     */
+  --t-primary: "Trebuchet MS", Helvetica, sans-serif;
   --t-secondary: Arial, Helvetica, sans-serif;
   --t-tertiary: monospace;
 
@@ -22,5 +25,3 @@
   --t-body: var(--t-secondary);
   --t-code: var(--t-tertiary);
 }
-
-

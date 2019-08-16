@@ -3,7 +3,7 @@
     font-weight: 400;
     color: #333;
     margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .sg-subtitle {
@@ -13,5 +13,267 @@
     color: #666;
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* KLEUREN */
+
+.color_block {
+    height: 100px;
+    width: 100px;
+
+    display: inline-block;
+}
+
+.text_color {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.dark_blue {
+    background-color: #4364AF;
+}
+
+.light_blue {
+    background-color: #00B2D5;
+}
+
+.green {
+    background-color: #B7D93D;
+}
+
+.yellow {
+    background-color: #FED42A;
+}
+
+/* TYPOGRAFIE */
+
+.site_title {
+    font-family: 'Verdana', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4364AF;
+    font-weight: bold;
+}
+
+.site_subtitle {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4364AF;
+    font-weight: bold;
+}
+
+.site_minititle {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4364AF;
+    font-weight: bold;
+}
+
+/* KNOPPEN */
+
+.button_nav {
+    border: none;
+    color: #4364AF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button_nav:hover {
+    color: #FED42A;
+    padding: 10px 20px;
+    background-color: #4364AF;
+}
+
+.button_submit {
+    color: #FED42A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #4364AF;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button_submit:hover {
+    background-color: #00B2D5;
+}
+
+.icon {
+    max-width: 35px;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    transition: all 0.6s;
+}
+
+/* FORMULIER */
+
+
+
+.formbox {
+    background-color: #E9E7EA;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: #00B2D5;
+    border-radius: 20px;
+    padding: 10px 20px;
+    height: 650px;
+    box-shadow: 0px 0px 31px -12px rgba(0, 0, 0, 0.54);
+}
+
+input[type="submit"] {
+    color: #FED42A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #4364AF;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #00B2D5;
+}
+
+input[type="text"] {
+    color: #FED42A;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 20px 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#vrije_mededeling {
+    width: 80%;
+    height: 20%;
+}
+
+p,
+label {
+    font: 1rem 'trebuchet MS', sans-serif;
+    color: #4364AF;
+    width: 90%;
+
+}
+
+input[type="checkbox"] {
+    margin-bottom: 20px;
+}
+
+/* MAP */
+#map {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+#map_box {
+    height: 300px;
+}
+
+/* AFBEELDINGEN */
+
+img {
+    width: 100%;
+}
+
+.img-crop {
+    width: 25%;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: all 0.6s;
+}
+
+/* DROPDOWN MENU */
+
+#nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 200px;
+}
+
+#nav li {
+    float: left;
+    display: block;
+    position: relative;
+    z-index: 500;
+    margin: 0 1px;
+}
+
+#nav li a {
+    display: block;
+    padding: 6px 5px 0 5px;
+    font-weight: bold;
+    height: 20px;
+    text-decoration: none;
+    color: #4364AF;
+    text-align: center;
+}
+
+#nav ul {
+    position: absolute;
+    left: 0;
+    display: none;
+    margin: 0 0 0 -1px;
+    padding: 0;
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+    border-bottom: 1px solid #4364AF;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#nav ul a {
+    display: block;
+    height: 15px;
+    padding: 6px 5px;
+    color: #4364AF;
+    text-align: left;
+}
+
+#nav a:hover {
+    text-decoration: none;
+    background-color: #4364AF;
+    ;
+    color: #FED42A;
 }
