@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,15 +8,86 @@
     <title>Styleguide</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/styleguide.css">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
 </head>
+
 <body>
-<div class="container">
-    <h1 class="sg-title">Digital styleguide</h1>
-    <h2 class="sg-subtitle">Kleuren</h2>
-    <h2 class="sg-subtitle">Typografie</h2>
-    <h2 class="sg-subtitle">Knopppen</h2>
-    <h2 class="sg-subtitle">Formulier</h2>
-    <h2 class="sg-subtitle">Componenten</h2>
-</div>
+    <div class="container">
+        <h1 class="sg-title">Digital styleguide</h1>
+        <h2 class="sg-subtitle">Kleuren</h2>
+        <div class="color_block dark_blue"></div>
+        <p class="text_color">#4364AF</p>
+        <div class="color_block light_blue"></div>
+        <p class="text_color">#00B2D5</p>
+        <div class="color_block green"></div>
+        <p class="text_color">#B7D93D</p>
+        <div class="color_block yellow"></div>
+        <p class="text_color">#FED42A</p>
+        <h2 class="sg-subtitle">Typografie</h2>
+        <h1 class="site_title">Verdana - Main Title</h1>
+        <h2 class="site_subtitle">Trebuchet MS - Sub Title</h2>
+        <h3 class="site_minititle">Arial - Mini Title</h3>
+        <h2 class="sg-subtitle">Knoppen</h2>
+        <a href="#" class="button_nav">Startpagina</a>
+        <br>
+        <br>
+        <a href="#" class="button_submit">Verzend</a>
+        <br>
+        <br>
+        <a href="#"><img class="icon" src="assets/img/fb.png" alt="fb_logo"></a>
+        <h2 class="sg-subtitle">Formulier</h2>
+        <div class="formbox">
+            <form action="">
+                <input type="text" placeholder="Naam*" name="naam">
+                <input type="text" placeholder="Achternaam*" name="Achternaam">
+                <br><br>
+                <input type="text" placeholder="Mobiel Nummer*" name="mobiel nummer">
+                <input type="text" placeholder="E-mail*" name="E-mail">
+                <br>
+                <br>
+                <input id="vrije_mededeling" type="text" placeholder="Vrije mededeling" name="mededeling">
+                <br>
+                <br>
+                <div>
+                    <input type="checkbox" id="scales" name="scales" checked>
+                    <label for="scales">Ik ben wens de nieuwsbrief te ontvangen via bovenstaand E-mail adres</label>
+                </div>
+                <input type="submit" value="Verzend">
+            </form>
+        </div>
+        <h2 class="sg-subtitle">Map</h2>
+        <div id="map_box">
+            <div id='map'></div>
+        </div>
+        <h2 class="sg-subtitle">Afbeeldingen</h2>
+        <div class="img-crop">
+            <img src="assets/img/kid.jpg" alt="image_kid">
+        </div>
+        <h2 class="sg-subtitle">Dropdown menu</h2>
+        <ul id="nav">
+            <li>
+                <a href="#">Startpagina</a>
+            </li>
+            <li>
+                <a href="#">Onze school</a>
+                <ul>
+                    <li><a href="#">Onze troeven</a></li>
+                    <li><a href="#">Ons team</a></li>
+                    <li><a href="#">Kleuteronderwijs</a></li>
+                    <li><a href="#">Lager onderwijs</a></li>
+                    <li><a href="#">Schoolparticipatie</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Freinet</a>
+            </li>
+        </ul>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
+
 </body>
+
 </html>

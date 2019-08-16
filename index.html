@@ -1,12 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eindopdracht UX</title>
+    <title>Herexamen UX</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet' />
+
 </head>
+
 <body>
+    <header>
+        <h1>Freinetschool De Speelwereld</h1>
+        <ul id="nav">
+            <li>
+                <a href="#">Startpagina</a>
+            </li>
+            <li>
+                <a href="#">Onze school</a>
+                <ul>
+                    <li><a href="#">Onze troeven</a></li>
+                    <li><a href="#">Ons team</a></li>
+                    <li><a href="#">Kleuteronderwijs</a></li>
+                    <li><a href="#">Lager onderwijs</a></li>
+                    <li><a href="#">Schoolparticipatie</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Freinet</a>
+            </li>
+            <li>
+                <a href="#">Activiteiten en uitstappen</a>
+            </li>
+            <li>
+                <a href="#">Praktische informatie</a>
+            </li>
+            <li>
+                <a href="#">Go! Onderwijs</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <container class="row">
+            <div class="col-8 left_container">
+                <div class="visie left_box textbox">
+                    <h2>Onze visie</h2>
+                    <h3>Open pedagogisch project</h3>
+                    <p>De Speelwereld kiest voor een ‘open pedagogisch project’, waarin de inbreng van de kinderen
+                        centraal staat. Essentieel voor de school is de ervaringsverrijkende aanpak in het werken met de
+                        kinderen, en het binnenbrengen van de sociale realiteit in de klas en het democratisch overleg.
+                        De leerlingen krijgen volop de kans om eigen ideeën uit te werken, verantwoordelijkheid te
+                        nemen, een eigen mening te vertolken en elkaar waar mogelijk te helpen.</p>
+                    <h3>Freinetonderwijs</h3>
+                    <p>Dit alles krijgt vorm door freinettechnieken: praatrondes, vrije teksten, tekstbesprekingen,
+                        klaskranten, schoolcorrespondentie, het dagboek, projectwerk, keuzetaken, zelfbeheer in de
+                        leefgroep, klasraad, klastaken, contractwerk, werkplanning, forum, schoolraad, schoolatelier …
+                    </p>
+                    <h3>Ouderparticipatie</h3>
+                    <p>Een Freinetschool is ook een school van ouders. Goede contacten tussen de ouders en de
+                        leerkrachten zijn een voorwaarde voor een optimale ontwikkeling van het kind. Ouders kunnen
+                        zaken signaleren die de leerkrachten ontgaan, en omgekeerd.</p>
+                    <h3>Een spiegel van de samenleving</h3>
+                    <p>De Speelwereld richt zich tot alle kinderen, niet alleen kinderen van wie de ouders bewust voor
+                        de Freinetpedagogie kiezen. Onze school wil een spiegel van de samenleving zijn, waar elk kind
+                        welkom is, ongeacht huidskleur, afkomst, levensbeschouwing of moedertaal. Kinderen die zich goed
+                        voelen op De Speelwereld, zullen later ook makkelijker hun plekje in de grote wereld vinden. De
+                        Speelwereld is een pluralistische en open school waar iedereen die op zijn/haar manier wil
+                        meewerken aan het voortbestaan ervan, welkom is.</p>
+                </div>
+                <div class="inschrijven left_box textbox">
+                    <h2>Inschrijven</h2>
+                    <p>Kleuters zijn welkom in onze leefgroep 1 vanaf de instapdatum volgend op de dag waarop ze 2 jaar
+                        en 6 maanden geworden zijn. Elk schooljaar zijn er 7 instapdata:
+                        <br>
+                        <br> de eerste schooldag na de zomervakantie;
+                        <br> de eerste schooldag na de herfstvakantie;
+                        <br> de eerste schooldag na de kerstvakantie;
+                        <br> de eerste schooldag van februari;
+                        <br> de eerste schooldag na de krokusvakantie;
+                        <br> de eerste schooldag na de paasvakantie;
+                        <br> de eerste schooldag na Hemelvaartsdag.
+                        <br><br>
+                        Voor meer info gelieve contact op te nemen met de directie via de contact pagina.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="nieuws textbox">
+                    <h2>Laatste Nieuws</h2>
+                    <a href="#">> Nieuwsbrief 22/11/2018</a>
+                    <a href="#">> Opendeurdag 24/10/2018</a>
+                    <a href="#">> Nieuwsbrief 21/10/2018</a>
+                    <a href="#">> Verhalentocht 2018</a>
+                    <a href="#">> Jaaroverzicht 2018</a>
+                </div>
+                <div class="links textbox">
+                    <h2>Nuttige Links</h2>
+                    <a href="#">> Reglement</a>
+                    <a href="#">> Contact pagina</a>
+                    <a href="#">> Uitstappen</a>
+                    <a href="#">> Opvang</a>
+                    <a href="#">> GO! onderwijs</a>
+                </div>
+                <div class="contact textbox">
+                    <h2>Contact</h2>
+                    <p>Freinetschool De Speelwereld
+                        Industrieweg 232
+                        9030 Gent
+                        <br> <br>
+                        E-mail: directie@bsdespeelwereld.be <br>
+                        E-mail secretariaat: secretariaat@bsdespeelwereld.be
+                        <br> <br>
+                        Telefoon: 053 12 12 12
+                        Gsm: 0412 12 12 12
+                        Fax: 053 12 12 12</p>
+                </div>
+            </div>
+        </container>
+    </main>
+    <footer>
+        <container class="row">
+            <div class="col-6">
+                <div id="map_box">
+                    <div id='map'></div>
+                </div>
+            </div>
+            <div class="col-6">
+                <form action="">
+                    <input type="text" placeholder="Ontvang onze nieuwsbrief via E-mail" name="E-mail">
+                    <input type="submit" value="Verstuur">
+                    <ul>
+                        <li><a href=""><img class="icon" src="assets/img/insta.png" alt=""></a></li>
+                        <li><a href=""><img class="icon" src="assets/img/fb.png" alt=""></a></li>
+                        <li><a href=""><img class="icon" src="assets/img/twitter.png" alt=""></a></li>
+                    </ul>
+                </form>
+
+            </div>
+        </container>
+        <p>© 2019 - UX eindopdracht - Becqué Nikolaï - 1mmpc</p>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="assets/scripts/main.js"></script>
 </body>
+
 </html>
